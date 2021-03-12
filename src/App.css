@@ -1,0 +1,49 @@
+.App{
+    text-align: center;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 17vw;
+    border: 1px solid;
+    padding-top: 2px;
+}
+
+.button{
+    padding: 0px 4px;
+    cursor: pointer;
+}   
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30vw;
+}
+
+.lower-button{
+    width: 14vw;
+    border-radius: 35px;
+}
+
+.addButton{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 22px;
+}
+
+.inputTodo{
+    height: 1.5rem;
+    width: 14rem;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+input:focus
+{
+    border: 1px solid #1670BE;
+    box-shadow: 0 0 3px #1670BE;
+    outline-offset: 0px;
+    outline: none;
+}
